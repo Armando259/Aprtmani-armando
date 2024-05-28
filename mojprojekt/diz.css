@@ -1,0 +1,193 @@
+/* Global styles for body */
+body {
+    overflow:auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #EFDBA6; /* Background color */
+}
+
+/* Styles for navigation bar */
+.navbar {
+    background: #BDA5F0; /* Light purple background */
+    font-family: calibri; /* Font style for navigation */
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-family: 'Ephesis'; /* Custom cursive font for brand */
+    font-size: 35px; /* Font size for brand name */
+    color: white; /* Font color for brand name */
+}
+
+.navbar-toggler {
+    border-color: rgba(254, 252, 252, 0.8); /* Border color of the toggler */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.slider {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50%;
+}
+.wrapper {
+	width: 300px;
+	height: 300px;
+	perspective: 1000px;
+    margin-top: 50px;
+}
+.img-area {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	transform-style: preserve-3d;
+	transition: all 1s ease-in-out;
+	animation: animate 16s infinite;
+}
+.img-area img {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+}
+.img-area img:nth-child(1) {
+	transform: rotateY(0) translateZ(150px);
+}
+.img-area img:nth-child(2) {
+	transform: rotateY(90deg) translateZ(150px);
+}
+.img-area img:nth-child(3) {
+	transform: rotateY(-90deg) translateZ(150px);
+}
+.img-area img:nth-child(4) {
+	transform: rotateY(180deg) translateZ(150px);
+}
+@keyframes animate {
+	0% {
+		transform: rotateY(0deg);
+	}
+	25% {
+		transform: rotateY(90deg);
+	}
+	50% {
+		transform: rotateY(180deg);
+	}
+	75% {
+		transform: rotateY(270deg);
+	}
+	100% {
+		transform: rotateY(360deg);
+	}
+}
+.container {
+    display: flex;
+    flex-direction: column;
+  
+    border-radius: 10px;
+    
+}
+
+
+/* Ako želite da cijeli .formthree zauzima minimalnu visinu viewporta, a ne samo .container */
+.formthree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #9B9178;
+    width: 95%;
+    height: 500px;
+    margin-top: 10px;
+
+}
+
+.ptb-100 {
+    border-radius: 20px;
+    text-align: center;
+    text-align: center;
+    height: auto;
+    margin-top: 50px;
+
+}
+
+
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.formthree .form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 13px;
+    border-bottom: 1px solid #d3d3d3;
+    background: transparent;
+    font-family: 'Roboto';
+    color: white;
+
+}
+
+.form-control::placeholder {
+    color: white !important;
+    opacity: 1 !important;
+    font-size: medium;
+}
+input::placeholder {
+    font-weight: bold;
+    opacity: 1s;
+    color: red;
+    font-size: large;
+    
+  }
+form{
+
+    height: auto;
+    width: 80%;
+}
+
+form .btn {
+    border-radius: 0 !important;
+}
+
+.formthree form button.btn {
+    margin: 30px auto;
+    border-radius: 10px 5% / 20px 25em 30px 35em;  
+    display: block;
+    width: 100%;
+    padding: 11px 32px;
+    background: #4285f4;
+    border: 1px solid #4285f4;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+
+.formthree .btn-primary.focus, .formthree .btn-primary:hover {
+    background-color: transparent;
+    color: #4285f4;
+    width: 80%;
+    border: 1px solid #4285f4 !important;
+}
+

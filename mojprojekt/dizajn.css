@@ -1,0 +1,1037 @@
+
+.responsive-container{
+  width: 80%;
+  margin:0 auto;
+  padding: 15px;
+  margin-top:15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px #666;
+  background: white;
+  }
+  .responsive-container h1{
+  margin: 10px 0;
+  color: maroon;
+  
+  }
+  .responsive-container table{
+  width: 100%;
+  
+  }
+  
+  .responsive-container td{
+  
+  border-color:solid 1px #ccc;
+  
+  }
+  
+  .responsive-container td::before{
+  display: none;
+  
+  }
+  .responsive-container th, .responsive-container td{
+  display:table-cell;
+  padding: 10px;
+  text-align: center;
+      
+  }
+  @media (max-width: 756px) {
+    .responsive-container {
+      width: 90%;
+      
+      margin: 0 auto;
+      margin-top: 10px; /* Centrirajte kontejner */
+    }
+  
+    .responsive-container th {
+      display: none; /* Sakrijte zaglavlje tablice */
+    }
+  
+    .responsive-container tr {
+      display: flex;
+      flex-wrap: wrap; /* Omogućava omatanje elemenata */
+      margin-bottom: 10px; /* Razmak između redaka */
+    }
+  
+    .responsive-container td {
+      display: flex;
+      background-color:#EFDBA6 ;
+      align-items: center;
+      /*text-align: center;
+      /*flex-basis: 50%; /* Postavlja osnovnu širinu za sve ćelije osim poruke */
+      
+    }
+  
+    
+   
+    .responsive-container td:first-child{
+      flex-basis: 35%; /* Poruka zauzima cijeli red */
+      text-align: left;
+      font-weight:bold;
+    }
+    
+    .responsive-container td:nth-child(3){
+      flex-basis: 35%; /* Poruka zauzima cijeli red */
+      text-align: left;
+    }
+    .responsive-container td:nth-child(2){
+      flex-basis: 65%; /* Poruka zauzima cijeli red */
+      text-align:right ;
+    }
+    
+    .responsive-container td:nth-child(4){
+      flex-basis: 65%; /* Poruka zauzima cijeli red */
+
+      text-align:right ;
+    }
+
+    .responsive-container td:last-child {
+      flex-basis: 100%; /* Poruka zauzima cijeli red */
+      margin-bottom: 15px;
+      
+    }
+  
+    .responsive-container td:before {
+      font-weight: bold;
+      min-width: 6.5em; /* Minimalna širina za tekst prije sadržaja */
+      content: attr(data-th) ": "; /* Dodaje naslov iz data-th atributa */
+      margin-right: 5px; /* Razmak desno od naslova */
+    }
+  }
+  
+  .special-container {
+  display: flex;
+  max-width: 800px;
+  width: calc(100% - 100px);
+  height: 400px;
+}
+
+.special-container .box {
+  position: relative;
+  min-width: 60px;
+  overflow: hidden;
+  margin: 10px;
+  width: 200px; /* Dodao sam širinu */
+
+  background-size: auto 150%;
+  background-position: center;
+  cursor: pointer;
+  transition: background-size 1s ease, flex-grow 1s ease;
+  border-radius: 50px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.special-container .box:hover {
+  background-size: auto 100%;
+  border-radius: 50px;
+  transition: all 0.9s ease;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  width:100%;
+  background-color: #9B9178;
+}
+
+.leader{
+
+  background-color: #9B9178;
+  align-items: center;
+  margin-left:10px;
+  margin-right: 10px;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+
+  height: 130px;
+  
+}
+.leader h1{
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: auto;
+}
+
+
+#contact {
+  width: 98%;
+  height: auto;
+  background-color: #9B9178;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.section-header {
+  text-align: center;
+  margin:  10px;
+  padding: 40px 0;
+  font: 300 60px 'Oswald', sans-serif;
+  color: #fff;
+  width: 80%;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+.contact-icon{
+
+  height: 150%;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  max-width: 840px;
+}
+
+/* Left contact page */
+.form-horizontal {
+  /*float: left;*/
+  max-width: 400px;
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+.form-control, 
+textarea {
+  max-width: 400px;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 90%;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+  display: flex;           /* Omogućava flexbox model */
+  justify-content: center; /* Centrira sadržaj unutar gumba horizontalno */
+  align-items: center;   
+}
+
+.alt-send-button {
+  width: 400px;
+  height: 34px;
+  display: flex;           /* Omogućava flexbox model */
+  justify-content: center; /* Centrira ikonu i tekst unutar diva */
+  align-items: center; 
+  transition: all .2s ease-in-out;
+}
+
+.send-text {
+  display: block;
+  margin-top: 10px;
+  font: 700 12px 'Lato', sans-serif;
+  letter-spacing: 2px;
+  align-items: center;
+  text-align: center;
+}
+
+.alt-send-button:hover {
+  transform: translate3d(0px, -29px, 0px);
+}
+
+/* Begin Right Contact Page */
+.direct-contact-container {
+  max-width: 400px;
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+  list-style-type: none;
+  margin-left: -30px;
+  padding-right: 20px;
+}
+
+.list-item {
+  line-height: 4;
+  color: #aaa;
+}
+
+.contact-text {
+  font: 300 18px 'Lato', sans-serif;
+  letter-spacing: 1.9px;
+  color: #bbb;
+}
+a.contact-icon{
+  height: 50px;
+  width: 50px;
+}
+.place {
+  margin-left: 62px;
+}
+
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+.contact-text a {
+  color: #bbb;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+/* Social Media Icons */
+.social-media-list {
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.social-media-list li a {
+  color: #fff;
+}
+
+.social-media-list li {
+  position: relative; 
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 10px 3px;
+  line-height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgb(27,27,27);
+  cursor: pointer; 
+  transition: all .2s ease-in-out;
+}
+
+
+.social-media-list li:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px #fff;
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+  background-color: #fff; 
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;  
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+}
+
+.social-media-list li:hover a {
+  color: #000;
+}
+
+.copyright {
+  font: 200 14px 'Oswald', sans-serif;
+  color: #555;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+hr {
+  border-color: rgba(255,255,255,.6);
+}
+
+
+.leader h2{
+  text-align: left;
+  font-size:larger;
+  top:auto;
+  color: #716A57;
+  margin-bottom: 15px;
+}
+
+.text-block button {
+  padding: 10px 20px;
+  font-size: 22px;
+  width: 40%;
+
+  align-content: center;
+  color: white;
+  background-color: #6A4470;  
+  border: none;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.text-block button:hover {
+  background-color: #45a049;  /* Tamnija nijansa zelene kada je miš iznad */
+}
+
+.text-block {
+  flex: 1;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Ovo će centrirati sve unutar div-a horizontalno */
+}
+iframe{
+  width: 100%;
+}
+p{
+
+  color: #F2E2BB;
+}
+
+h2{color:white;
+  margin-left: 20px;
+ 
+}
+h3{margin-left: 30px;
+  color: #fff;}
+
+footer{
+  background-color: #78809B;
+
+}  
+.image-block {
+  flex: 1;
+  
+}
+.image-block img {
+  width: 90%; /* Podesite ovo prema potrebi */
+  height: auto;
+
+
+}
+
+.card-body{
+  margin: 0;
+  width: 100%;
+}
+
+.wrapper{
+    font-size: 300px;
+    grid-template-columns: 1fr;
+    margin-bottom: 50px;
+
+  }
+.back {
+    width: 100%; /* Širina cijelog vidljivog područja */
+    height: 100vh; /* Visina cijelog vidljivog područja (viewport height) */
+    overflow: hidden; /* Sakriva sve što prelazi definirane dimenzije */
+    position: relative; /* Pozicionira element u odnosu na vidljivo područje */
+    margin-top: 0px;
+    margin-bottom: auto;
+  }
+
+/* Veliki ekrani (desktop) */
+@media (min-width: 1263px) {
+  .pozzadina {
+    width: 1000px;        /* Postavlja širinu slike na 50% od roditeljskog elementa */
+    height: 750px;      /* Održava omjer širine i visine */
+}
+
+  .banner-text {
+    background-color: rgba(68, 60, 41, 0.77);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 70px;
+    z-index: 50;
+    width: 70%;
+    height: auto;
+    border: 10px outset  #fff;
+  }
+  h1{
+    color:white;
+    font-size: 36px;
+  }
+  .container{
+    flex-direction: row;
+    
+  }
+  .banner-text h1 {
+    text-align: center;
+    font-family: 'Ephesis';
+    line-height: 1.2;
+    color: #fff;
+    font-size: 630%;
+    color: #fff;
+    margin: 0;
+    font-weight: 900;
+  }
+  .banner-img {
+    top:0% ;
+    width: 100%;
+	  height: 100%;
+    transform: scale(1.2);
+  }
+  .banner {
+    height: 750px;
+  }
+}
+.pozzadina {
+  margin-bottom: 30px;
+}
+
+/* Tableti i manji desktop ekrani */
+@media (min-width: 950px) and (max-width: 1262px) {
+  .pozzadina {
+    width: 100px;        /* Postavlja širinu slike na 50% od roditeljskog elementa */
+    height: 517px;      /* Održava omjer širine i visine */
+}
+h1{
+  color:white;
+  font-size: 36px;
+}
+  .banner-text {
+    background-color: rgba(68, 60, 41, 0.77);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 70px;
+    z-index: 50;
+    width: 70%;
+    height: auto;
+    border: 10px outset  #fff;
+  }
+  .banner-text h1 {
+    text-align: center;
+    font-family: 'Ephesis';
+    line-height: 1.2;
+    color: #fff;
+    font-size: 70px;
+    color: #fff;
+    margin: 0;
+    font-weight: 900;
+  }
+  .banner-img {
+    transform: scale(1.1);
+    width: 100%;
+	  height: 517px;
+  }
+  .banner {
+    height: 517px;
+    display: inline;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 949px) {
+  .banner-text {
+    background-color: rgba(68, 60, 41, 0.77);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 70px;
+    z-index: 50;
+    width: 80%;
+    height: auto;
+    border: 10px outset  #fff;
+  }
+  h1{
+    color:white;
+    margin-top: 15px;
+    font-size: 25px;
+  }
+  p{
+    font-size: 20px;
+  }
+  .banner-text h1 {
+    text-align: center;
+    font-family: 'Ephesis';
+    line-height: 1.2;
+    color: #fff;
+    font-size: 63px;
+    color: #fff;
+    margin: 0;
+    font-weight: 900;
+  }
+  .banner-img {
+    transform: scale(1.1);
+    width: 100%;
+	  height: 517px;
+  }
+  .banner {
+    height: 517px;
+  }
+  .pozzadina {
+    width: 100px;        /* Postavlja širinu slike na 50% od roditeljskog elementa */
+    height: 517px;      /* Održava omjer širine i visine */
+}
+}
+/* Veći mobilni uređaji */
+@media (min-width: 481px) and (max-width: 767px) {
+  .banner-text {
+    background-color: rgba(68, 60, 41, 0.77);
+    position: relative;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    padding: 70px;
+    z-index: 50;
+    width: 470px;
+    height:214px;
+    border: 10px outset  #fff;
+  }
+  .image-block {
+    order: 2; /* Postavlja sliku ispod teksta */
+}
+
+
+.text-block {
+    order: 1; /* Tekst se prikazuje prvi */
+}
+  h1{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+  }
+  p{
+    text-align: justify;
+    font-size: 23px;
+  }
+  .container {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .text-block, .image-block {
+    flex: 1 1 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .banner-text h1 {
+    text-align: center;
+    font-family: 'Ephesis';
+    transform: translate(-3%, -35%);
+    line-height: 1.2;
+    color: #fff;
+    font-size: 500%;
+    color: #fff;
+    margin: 0;
+    font-weight: 900;
+  }
+  .contact-wrapper{
+
+    flex-direction: column;
+   }
+   
+  .banner-img {
+    transform: scale(1.05);
+    width: 767px;
+	  height: 390px;
+  }
+  .banner {
+    height: 390px;
+  }
+  .pozzadina {
+    width: 100px;        /* Postavlja širinu slike na 50% od roditeljskog elementa */
+    height: 390px;      /* Održava omjer širine i visine */
+}
+}
+
+/* Mali mobilni uređaji */
+@media (max-width: 480px) {
+ 
+  .image-block {
+    order: 2; /* Postavlja sliku ispod teksta */
+}
+.direct-contact-container, .form-wrapper {
+  float: none;
+  margin: 0 auto;
+}  
+.form-control, textarea {
+  
+  margin: 0 auto;
+}
+.contact-wrapper{
+
+  flex-direction: column;
+ }
+
+.name, .email, textarea {
+  width: 280px;
+} 
+
+.direct-contact-container {
+  margin-top: 60px;
+  max-width: 280px;
+}  
+.social-media-list {
+  left: 0;
+}
+.social-media-list li {
+  height: 55px;
+  width: 55px;
+  line-height: 55px;
+  font-size: 2rem;
+}
+.social-media-list li:after {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+}
+.text-block {
+    order: 1; /* Tekst se prikazuje prvi */
+}
+  .container {
+    flex-direction: column;
+    display: flex;
+  }
+  h1{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+  }
+  p{
+    text-align: justify;
+    font-size: 23px;
+  }
+  .text-block, .image-block {
+    flex: 1 1 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 10px;
+
+  }
+
+  .banner-text {
+    background-color: rgba(68, 60, 41, 0.77); /* Poluprozirna pozadina */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /* Centriranje elementa */
+    padding: 50px; /* Padding oko teksta */
+    z-index: 20;
+    width: 300px; /* Širina elementa */
+    height: 159px; /* Visina elementa */
+    border: 10px outset #fff; /* Stil okvira */
+    display: flex; /* Omogućuje fleksibilno pozicioniranje unutar kontejnera */
+    flex-direction: column; /* Djeca se slažu vertikalno */
+    justify-content: center; /* Vertikalno centriranje sadržaja unutar kontejnera */
+    align-items: center; /* Horizontalno centriranje sadržaja unutar kontejnera */
+  }
+
+  .banner-text h1 {
+    text-align: center; /* Horizontalno centriranje teksta */
+    font-family: 'Ephesis'; /* Font teksta */
+    line-height: 0.8;
+    font-size: 300%; /* Veličina fonta */
+    color: #fff; /* Boja fonta */
+    margin-bottom: 0; /* Razmak ispod naslova */
+    margin-right: 10px; /* Uklanjanje dodatnog desnog margina */
+    font-weight: 800; /* Debljina fonta */
+    width: 100%; /* Širina naslova unutar svojeg kontejnera */
+  }
+
+
+  .banner-img {
+    transform: scale(1);
+    width: 480px;
+    height: 248px;
+
+  }
+  .banner {
+    height: 248px;
+  }
+  .pozzadina {
+    width: 100px;        /* Postavlja širinu slike na 50% od roditeljskog elementa */
+    height: 248px;      /* Održava omjer širine i visine */
+}
+  .navbar-toggler {
+    display: block; /* Prikaz gumba za navigaciju */
+  }
+  .navdiv {
+    flex-direction: column; /* Elementi jedan ispod drugoga */
+  }
+}
+
+/* Dodatna prilagodba za vrlo male ekrane */
+@media (max-width: 350px) {
+  .banner-text {
+    background-color: rgba(68, 60, 41, 0.77); /* Poluprozirna pozadina */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centriranje elementa */
+    padding: 50px; /* Padding oko teksta */
+    z-index: 20;
+    width: 265px; /* Širina elementa */
+    height: 145px; /* Visina elementa */
+    border: 10px outset #fff; /* Stil okvira */
+    display: flex; /* Omogućuje fleksibilno pozicioniranje unutar kontejnera */
+    flex-direction: column; /* Djeca se slažu vertikalno */
+    justify-content: center; /* Vertikalno centriranje sadržaja unutar kontejnera */
+    align-items: center; /* Horizontalno centriranje sadržaja unutar kontejnera */
+  }
+  .image-block {
+    order: 2; /* Postavlja sliku ispod teksta */
+}
+.contact-wrapper{
+
+  flex-direction: column;
+ }
+.text-block {
+    order: 1; /* Tekst se prikazuje prvi */
+}
+  .container {
+    flex-direction: column;
+    display: flex;
+  }
+  h1{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 27px;
+  }
+  p{
+    text-align: justify;
+    font-size: 17px;
+  }
+  .text-block, .image-block {
+    flex: 1 1 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 10px;
+
+  }
+  .banner-text h1 {
+    text-align: center; /* Horizontalno centriranje teksta */
+    font-family: 'Ephesis'; /* Font teksta */
+    line-height: 0.8;
+    font-size: 300%; /* Veličina fonta */
+    color: #fff; /* Boja fonta */
+    margin-bottom: 0px; /* Razmak ispod naslova */
+    margin-right: 30px; /* Uklanjanje dodatnog desnog margina */
+    
+    font-weight: 550; /* Debljina fonta */
+    width: 100%; /* Širina naslova unutar svojeg kontejnera */
+  }
+  .banner-img {
+    transform: scale(1);
+    width: 100%;
+    height: 182px;
+
+  }
+  .pozzadina {
+    width: 100px;        /* Postavlja širinu slike na 50% od roditeljskog elementa */
+    height: 182px;      /* Održava omjer širine i visine */
+}
+}
+/* Manje korekcije za logo i navigaciju za bolju vidljivost i pristupačnost */
+.logo a, .navbar-brand {
+  font-size: 22px; /* Malo manja veličina fonta za mobilne uređaje */
+}
+
+li a {
+  font-size: 15px; /* Manja veličina fonta za linkove u navigaciji */
+}
+.full-width {
+  width: auto;  /* Postavlja širinu slike na 100% širine roditeljskog elementa */
+  height: auto; /* Očuvanje omjera visine i širine */
+}
+body {
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+  width: 100%;
+
+  background-color: #EFDBA6;
+}
+
+.banner {
+	position: absolute;
+	width: 100%;
+  margin-bottom: 50px;
+  
+	overflow: hidden;
+}
+.banner-img {
+	position: absolute;
+	
+	background: no-repeat 50% 50%;
+	background-size: cover;
+	animation: animate 15s linear infinite;
+	opacity: 1;
+	transform: scale(1.2);
+  margin-bottom: 50px;
+}
+.banner-img:nth-child(1) {
+	animation-name: animate-1;
+	z-index: 3;
+}
+.banner-img:nth-child(2) {
+	animation-name: animate-2;
+	z-index: 2;
+}
+.banner-img:nth-child(3) {
+	animation-name: animate-3;
+	z-index: 1;
+}
+
+@keyframes animate-1 {
+	0% {
+		opacity: 1;
+		transform: scale(1.2);
+	}
+	1.5% {
+		opacity: 1;
+	}
+	23% {
+		opacity: 1;
+	}
+	26% {
+		opacity: 0;
+		transform: scale(1);
+	}
+	100% {
+		opacity: 0;
+		transform: scale(1.2);
+	}
+	98% {
+		opacity: 0;
+		transform: scale(1.22);
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes animate-2 {
+	23% {
+		opacity: 1;
+		transform: scale(1.2);
+	}
+	26% {
+		opacity: 1;
+	}
+	48% {
+		opacity: 1;
+	}
+	51% {
+		opacity: 0;
+		transform: scale(1);
+	}
+	100% {
+		opacity: 0;
+		transform: scale(1.2);
+	}
+}
+
+@keyframes animate-3 {
+	50% {
+		opacity: 1;
+		transform: scale(1.2);
+	}
+	76% {
+		opacity: 1;
+	}
+	98% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		transform: scale(1);
+	}
+}
+
+.banner-text p {
+	color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	font-family: 'Ephesis';
+	text-transform: uppercase;
+	font-size: 26px;
+}
+
+
+* {
+  text-decoration: none;
+}
+.navbar {
+  background: #BDA5F0;
+  font-family: calibri;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-brand {
+  font-family: 'Ephesis';
+  font-size: 35; 
+  color: white;/* Primjena na naziv branda */
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-toggler {
+  border-color: rgba(254, 252, 252, 0.8); /* Opcionalno, prilagodi boju obruba gumba ako je potrebno */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+
+}
+
+/* Alternativno, ako želite da ikona bude solidna bijela */
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+li a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+button {
+  background-color: black;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90px;
+}
+button a {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}

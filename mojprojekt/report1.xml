@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kontakti>
+  <kontakt>
+    <name>Deni</name>
+    <Email>deni.koraca2@gmail.com</Email>
+    <Phone>915325331</Phone>
+    <City>Motovun</City>
+    <Message>ovo je  prova poruka</Message>
+  </kontakt>
+  <kontakt>
+    <name>Ivo</name>
+    <Email>ivo.andic@gmail.com</Email>
+    <Phone>91563658</Phone>
+    <City>Rijeka</City>
+    <Message>Ivo andic poruka</Message>
+  </kontakt>
+  <kontakt>
+    <name>Ivan</name>
+    <Email>ivan.panjic@gmail.com</Email>
+    <Phone>985685</Phone>
+    <City>Zagreb</City>
+    <Message>OVo piše ivan</Message>
+  </kontakt>
+  <kontakt>
+    <name>ema</name>
+    <Email>emajerman@gmail.com</Email>
+    <Phone>98568424</Phone>
+    <City>Pula</City>
+    <Message>Ema je žedna</Message>
+  </kontakt>
+  <kontakt>
+    <name>Nikolina</name>
+    <Email>ninafina@gmail.com</Email>
+    <Phone>5952626</Phone>
+    <City>Zagreb</City>
+    <Message>Ema je moja prijateljica</Message>
+  </kontakt>
+  <kontakt>
+    <name>Nikola</name>
+    <Email>nikola.koraca@gmail.com</Email>
+    <Phone>5254669</Phone>
+    <City>Motovun</City>
+    <Message>Ja sam iz istre</Message>
+  </kontakt>
+  <kontakt>
+    <name>Gvido</name>
+    <Email>gvidojejak@gmailcom</Email>
+    <Phone>9562556</Phone>
+    <City>Rijeka</City>
+    <Message>JA sam jak&#13;
+Jako jak</Message>
+  </kontakt>
+  <kontakt>
+    <name>Armando</name>
+    <Email>armando@gmailcom</Email>
+    <Phone>565855</Phone>
+    <City>Krk</City>
+    <Message>Ja san vlasnik kuce.</Message>
+  </kontakt>
+  <kontakt>
+    <name>Marko</name>
+    <Email>markomat@gmailcom</Email>
+    <Phone>985622443</Phone>
+    <City>Zareb</City>
+    <Message>Marko se osjeca kreativno</Message>
+  </kontakt>
+  <kontakt>
+    <name>Jana</name>
+    <Email>janavoda@gmailcom</Email>
+    <Phone>98544774</Phone>
+    <City>Barban</City>
+    <Message>Ja sam jana i zedna sam</Message>
+  </kontakt>
+  <kontakt>
+    <name>VAnessa</name>
+    <Email>dada@gmail.com</Email>
+    <Phone>9531</Phone>
+    <City>Pula</City>
+    <Message>BOk ja san vanessa</Message>
+  </kontakt>
+  <kontakt>
+    <name>Aircash</name>
+    <Email>aircash.koraca1@gmail.com</Email>
+    <Phone>91534581</Phone>
+    <City>Karojba</City>
+    <Message>Ja iman laptop</Message>
+  </kontakt>
+  <kontakt>
+    <name>branko</name>
+    <Email>branko@gmail.com</Email>
+    <Phone>569842</Phone>
+    <City>Rijeka</City>
+    <Message>JA san branko bananko</Message>
+  </kontakt>
+  <kontakt>
+    <name>branko</name>
+    <Email>branko@gmail.com</Email>
+    <Phone>569842</Phone>
+    <City>Rijeka</City>
+    <Message>JA san branko bananko</Message>
+  </kontakt>
+  <kontakt>
+    <name>branko</name>
+    <Email>branko@gmail.com</Email>
+    <Phone>569842</Phone>
+    <City>Rijeka</City>
+    <Message>JA san branko bananko</Message>
+  </kontakt>
+  <kontakt>
+    <name>branko</name>
+    <Email>branko@gmail.com</Email>
+    <Phone>569842</Phone>
+    <City>Rijeka</City>
+    <Message>JA san branko bananko</Message>
+  </kontakt>
+  <kontakt>
+    <name>branko</name>
+    <Email>branko@gmail.com</Email>
+    <Phone>569842</Phone>
+    <City>Rijeka</City>
+    <Message>JA san branko bananko</Message>
+  </kontakt>
+  <kontakt>
+    <name>branko</name>
+    <Email>branko@gmail.com</Email>
+    <Phone>569842</Phone>
+    <City>Rijeka</City>
+    <Message>JA san branko bananko</Message>
+  </kontakt>
+  <kontakt>
+    <name>branko</name>
+    <Email>branko@gmail.com</Email>
+    <Phone>569842</Phone>
+    <City>Rijeka</City>
+    <Message>JA san branko bananko</Message>
+  </kontakt>
+  <kontakt>
+    <name>iva</name>
+    <Email>ivapiva@gm.com</Email>
+    <Phone>568889</Phone>
+    <City>MOtovun</City>
+    <Message>JA san iva piva</Message>
+  </kontakt>
+  <kontakt>
+    <name>iva</name>
+    <Email>ivapiva@gm.com</Email>
+    <Phone>568889</Phone>
+    <City>MOtovun</City>
+    <Message>JA san iva piva</Message>
+  </kontakt>
+  <kontakt>
+    <name>iva</name>
+    <Email>ivapiva@gm.com</Email>
+    <Phone>568889</Phone>
+    <City>MOtovun</City>
+    <Message>JA san iva piva</Message>
+  </kontakt>
+  <kontakt>
+    <name>iva</name>
+    <Email>ivapiva@gm.com</Email>
+    <Phone>568889</Phone>
+    <City>MOtovun</City>
+    <Message>JA san iva piva</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>ana</name>
+    <Email>ana@gm.como</Email>
+    <Phone>5022505</Phone>
+    <City>pula</City>
+    <Message>ja san ana&#13;
+</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pua</City>
+    <Message>Ja sam riba zlatna</Message>
+  </kontakt>
+  <kontakt>
+    <name>ana</name>
+    <Email>ana@gm.como</Email>
+    <Phone>5022505</Phone>
+    <City>pula</City>
+    <Message>ja san ana&#13;
+</Message>
+  </kontakt>
+  <kontakt>
+    <name>ana</name>
+    <Email>pana@gma.com</Email>
+    <Phone>522655</Phone>
+    <City>pula</City>
+    <Message>ja sam ana</Message>
+  </kontakt>
+  <kontakt>
+    <name>vejta</name>
+    <Email>vejta@gm.com</Email>
+    <Phone>59684</Phone>
+    <City>pula</City>
+    <Message>Ja sam riba jako  zlatna</Message>
+  </kontakt>
+</kontakti>

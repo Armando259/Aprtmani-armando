@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprtman</title>
+    <!-- Bootstrap CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Ephesis' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+   <link rel="stylesheet" href="dizajn.css">
+   <link rel="stylesheet" href="diz.css">
+   
+   
+   <script src="https://use.fontawesome.com/20ab91acc4.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg  "> <!-- Dodajte bootstrap klase za svjetlosni stil i proširivost -->
+    <a class="navbar-brand" href="index.html">Apartman Armando</a> <!-- Vaš logo ili naziv branda -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav ml-auto mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Početna <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">FotoGalerija</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="smjestaj.html">Smještaj</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="kontakt.html">Kontakt</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Info</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="media/hrvatska.png" alt="Dropdown" style="width: 20px; height: 20px;"> <!-- Ažurirajte src s putanjom do vaše slike -->
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Hrvatski</a>
+                    <a class="dropdown-item" href="#">Engleski</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="slider">
+  <div class="wrapper">
+      <div class="img-area">
+          <img src="media/wepik-export-20240408105620HXWb.jpeg"  alt="Opis slike">
+          <img src="media/wepik-export-20240408105146VpaU.jpeg"  alt="Opis slike1"> 
+          <img src="media/wepik-export-20240408104249lQhr.jpeg" alt="Opis slike2"> 
+          <img src="media/wepik-export-20240408105146VpaU.jpeg " alt="Opis slike3">
+      </div>
+  </div>
+</div>
+
+<div class="container ">
+  <div class="formthree ptb-100">
+  
+    <form id="formValid" action="/kontakti.php" method="post">
+      <div class="row">
+          <div class="col-md-6">
+              <div class="form-group">
+                  <label class="sr-only">Name</label>
+                  <input type="text" class="form-control" required="" name="name" id="nameSix" placeholder="Your Name">
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="form-group">
+                  <label class="sr-only">Email</label>
+                  <input type="email" class="form-control" required="" name="email" id="emailSix" placeholder="Email Address">
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="form-group">
+                  <label class="sr-only">Phone</label>
+                  <input type="tel" class="form-control" required="" name="phone" id="phoneSix" placeholder="Mobile Number">
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="form-group">
+                  <label class="sr-only">City</label>
+                  <input type="text" class="form-control" required="" name="city" id="citySix" placeholder="City">
+              </div>
+          </div>
+      </div>
+      <!--end of /.row-->
+      <div class="form-group">
+          <label class="sr-only">Message</label>
+          <textarea class="form-control" required="" rows="7" name="message" placeholder="Write Message"></textarea>
+      </div>
+      <button type="submit" name="save" class="btn btn-primary">Send Message</button>
+  </form>
+        
+   
+  </div>
+  <!-- /.container -->
+</div>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d69067.47640226067!2d30.072886208885137!3d51.31371006304356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472a89591a850ff1%3A0x8feb7523e10cfac9!2z0KDQsNC00ZbQvtC70L7QutCw0YbRltC50L3QsCDRgdGC0LDQvdGG0ZbRjyAi0JTRg9Cz0LAi!5e1!3m2!1shr!2shr!4v1713528302115!5m2!1shr!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" ></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+ <script src="js/java.js"></script> <!-- Pretpostavljajući da se JS nalazi u poddirektoriju 'js' -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+
